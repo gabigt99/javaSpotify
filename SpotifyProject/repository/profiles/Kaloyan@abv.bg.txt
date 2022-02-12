@@ -1,0 +1,13 @@
+{
+  "username": "Kaloyan@abv.bg",
+  "playlists": {
+    "forever young": {
+      "name": "forever young",
+      "songs": {}
+    },
+    "rock": {
+      "name": "rock",
+      "songs": {}
+    }
+  }
+}

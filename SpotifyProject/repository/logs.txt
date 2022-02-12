@@ -1,0 +1,88 @@
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:138), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:49), com.company.Main.main(Main.java:9)]
+
+Error occurred while processing client request.java.net.SocketException: Connection reset
+[java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426), bg.sofia.uni.fmi.mjt.spotify.server.Server.getClientInput(Server.java:146), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:67), com.company.Main.main(Main.java:9)]
+
+Error occurred while processing client request.java.net.SocketException: Connection reset
+[java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:411), bg.sofia.uni.fmi.mjt.spotify.server.Server.getClientInput(Server.java:146), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:67), com.company.Main.main(Main.java:9)]
+
+Error occurred while processing client request.java.net.SocketException: Connection reset
+[java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426), bg.sofia.uni.fmi.mjt.spotify.server.Server.getClientInput(Server.java:151), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:67), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:143), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:49), com.company.Main.main(Main.java:9)]
+
+Error occurred while processing client request.java.net.SocketException: Connection reset
+[java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:411), bg.sofia.uni.fmi.mjt.spotify.server.Server.getClientInput(Server.java:151), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:67), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:143), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:49), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:143), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:49), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:143), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:49), com.company.Main.main(Main.java:9)]
+
+Error occurred while processing client request.java.io.IOException: An established connection was aborted by the software in your host machine
+[java.base/sun.nio.ch.SocketDispatcher.read0(Native Method), java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46), java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:330), java.base/sun.nio.ch.IOUtil.read(IOUtil.java:296), java.base/sun.nio.ch.IOUtil.read(IOUtil.java:259), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417), bg.sofia.uni.fmi.mjt.spotify.server.Server.getClientInput(Server.java:152), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:69), com.company.Main.main(Main.java:9)]
+
+An error occurred while playing the song
+java.io.FileNotFoundException: Invalid count of arguments (The system cannot find the file specified)
+[java.base/java.io.FileInputStream.open0(Native Method), java.base/java.io.FileInputStream.open(FileInputStream.java:216), java.base/java.io.FileInputStream.<init>(FileInputStream.java:157), java.desktop/com.sun.media.sound.SunFileReader.getAudioInputStream(SunFileReader.java:117), java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1062), bg.sofia.uni.fmi.mjt.spotify.server.Server.playSong(Server.java:113), bg.sofia.uni.fmi.mjt.spotify.server.Server.lambda$isCommandPlay$0(Server.java:103), java.base/java.lang.Thread.run(Thread.java:833)]
+
+An error occurred while playing the song
+java.io.FileNotFoundException: Invalid count of arguments (The system cannot find the file specified)
+[java.base/java.io.FileInputStream.open0(Native Method), java.base/java.io.FileInputStream.open(FileInputStream.java:216), java.base/java.io.FileInputStream.<init>(FileInputStream.java:157), java.desktop/com.sun.media.sound.SunFileReader.getAudioInputStream(SunFileReader.java:117), java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1062), bg.sofia.uni.fmi.mjt.spotify.server.Server.playSong(Server.java:113), bg.sofia.uni.fmi.mjt.spotify.server.Server.lambda$isCommandPlay$0(Server.java:103), java.base/java.lang.Thread.run(Thread.java:833)]
+
+An error occurred while playing the song
+java.io.FileNotFoundException: Invalid count of arguments (The system cannot find the file specified)
+[java.base/java.io.FileInputStream.open0(Native Method), java.base/java.io.FileInputStream.open(FileInputStream.java:216), java.base/java.io.FileInputStream.<init>(FileInputStream.java:157), java.desktop/com.sun.media.sound.SunFileReader.getAudioInputStream(SunFileReader.java:117), java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1062), bg.sofia.uni.fmi.mjt.spotify.server.Server.playSong(Server.java:113), bg.sofia.uni.fmi.mjt.spotify.server.Server.lambda$isCommandPlay$0(Server.java:103), java.base/java.lang.Thread.run(Thread.java:833)]
+
+An error occurred while playing the song
+java.io.FileNotFoundException: Invalid count of arguments (The system cannot find the file specified)
+[java.base/java.io.FileInputStream.open0(Native Method), java.base/java.io.FileInputStream.open(FileInputStream.java:216), java.base/java.io.FileInputStream.<init>(FileInputStream.java:157), java.desktop/com.sun.media.sound.SunFileReader.getAudioInputStream(SunFileReader.java:117), java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1062), bg.sofia.uni.fmi.mjt.spotify.server.Server.playSong(Server.java:113), bg.sofia.uni.fmi.mjt.spotify.server.Server.lambda$isCommandPlay$0(Server.java:103), java.base/java.lang.Thread.run(Thread.java:833)]
+
+An error occurred while playing the song
+java.io.FileNotFoundException: songRepository\audio.wav+format,8000.0,16,2,4,8000.0,false
+ (The filename, directory name, or volume label syntax is incorrect)
+[java.base/java.io.FileInputStream.open0(Native Method), java.base/java.io.FileInputStream.open(FileInputStream.java:216), java.base/java.io.FileInputStream.<init>(FileInputStream.java:157), java.desktop/com.sun.media.sound.SunFileReader.getAudioInputStream(SunFileReader.java:117), java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1062), bg.sofia.uni.fmi.mjt.spotify.server.Server.playSong(Server.java:113), bg.sofia.uni.fmi.mjt.spotify.server.Server.lambda$isCommandPlay$0(Server.java:103), java.base/java.lang.Thread.run(Thread.java:833)]
+
+An error occurred while playing the song
+java.io.FileNotFoundException: songRepository\audio.wav+format,8000.0,16,2,4,8000.0,false
+ (The filename, directory name, or volume label syntax is incorrect)
+[java.base/java.io.FileInputStream.open0(Native Method), java.base/java.io.FileInputStream.open(FileInputStream.java:216), java.base/java.io.FileInputStream.<init>(FileInputStream.java:157), java.desktop/com.sun.media.sound.SunFileReader.getAudioInputStream(SunFileReader.java:117), java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1062), bg.sofia.uni.fmi.mjt.spotify.server.Server.playSong(Server.java:113), bg.sofia.uni.fmi.mjt.spotify.server.Server.lambda$isCommandPlay$0(Server.java:103), java.base/java.lang.Thread.run(Thread.java:833)]
+
+An error occurred while playing the song
+java.io.FileNotFoundException: songRepository\audio.wav+format,8000.0,16,2,4,8000.0,false
+ (The filename, directory name, or volume label syntax is incorrect)
+[java.base/java.io.FileInputStream.open0(Native Method), java.base/java.io.FileInputStream.open(FileInputStream.java:216), java.base/java.io.FileInputStream.<init>(FileInputStream.java:157), java.desktop/com.sun.media.sound.SunFileReader.getAudioInputStream(SunFileReader.java:117), java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1062), bg.sofia.uni.fmi.mjt.spotify.server.Server.playSong(Server.java:113), bg.sofia.uni.fmi.mjt.spotify.server.Server.lambda$isCommandPlay$0(Server.java:103), java.base/java.lang.Thread.run(Thread.java:833)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:144), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:50), com.company.Main.main(Main.java:9)]
+
+Error occurred while processing client request.java.net.SocketException: Connection reset
+[java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426), bg.sofia.uni.fmi.mjt.spotify.server.Server.getClientInput(Server.java:152), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:68), com.company.Main.main(Main.java:9)]
+
+Error occurred while processing client request.java.net.SocketException: Connection reset
+[java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394), java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:411), bg.sofia.uni.fmi.mjt.spotify.server.Server.getClientInput(Server.java:152), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:68), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:141), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:50), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:141), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:50), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:141), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:50), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:141), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:50), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:141), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:50), com.company.Main.main(Main.java:9)]
+
+Failed to start server.java.net.BindException: Address already in use: bind
+[java.base/sun.nio.ch.Net.bind0(Native Method), java.base/sun.nio.ch.Net.bind(Net.java:555), java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337), java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294), java.base/java.nio.channels.ServerSocketChannel.bind(ServerSocketChannel.java:224), bg.sofia.uni.fmi.mjt.spotify.server.Server.configureServerSocketChannel(Server.java:144), bg.sofia.uni.fmi.mjt.spotify.server.Server.start(Server.java:50), com.company.Main.main(Main.java:9)]

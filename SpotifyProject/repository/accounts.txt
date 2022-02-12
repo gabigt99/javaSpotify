@@ -1,0 +1,2 @@
+{"email":"Gabi","password":"12345678"}
+{"email":"Kaloyan@abv.bg","password":"12345678"}

@@ -1,0 +1,28 @@
+{
+  "username": "Gabi",
+  "playlists": {
+    "rock": {
+      "name": "rock",
+      "songs": {
+        "Say_me": "Dark",
+        "Hey,_you": "Dark",
+        "Taki": "Selena"
+      }
+    },
+    "pop": {
+      "name": "pop",
+      "songs": {
+        "How bad do you want it": "Adel",
+        "Hey mama": "Adel"
+      }
+    },
+    "hello": {
+      "name": "hello",
+      "songs": {}
+    },
+    "Stooop": {
+      "name": "Stooop",
+      "songs": {}
+    }
+  }
+}
